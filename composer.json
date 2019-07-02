@@ -1,0 +1,29 @@
+{
+    "name"       : "tlwl/supports",
+    "description": "common components",
+    "keywords"   : ["support", "array", "collection", "config", "http", "logger", "throttle"],
+    "authors"    : [
+        {
+            "name" : "tlwl",
+            "email": "tian_wolf@sina.com"
+        }
+    ],
+    "require"    : {
+        "php"              : ">=5.5",
+        "monolog/monolog"  : "^1.24",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tlwl\\Supports\\": "src/"
+        }
+    },
+    "suggest": {
+        "predis/predis": "Allows to use throttle feature"
+    },
+
+    "license": "MIT"
+}
