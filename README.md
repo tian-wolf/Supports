@@ -1,6 +1,6 @@
 <h1 align="center">Supports</h1>
 
-handle with array/config/log/guzzle etc.
+handle with array/config/logger etc.
 
 ## About log
 

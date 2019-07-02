@@ -1,7 +1,7 @@
 {
     "name"       : "tlwl/supports",
     "description": "common components",
-    "keywords"   : ["support", "array", "collection", "config", "http", "logger", "throttle"],
+    "keywords"   : ["support", "array", "collection", "config", "logger", "throttle"],
     "authors"    : [
         {
             "name" : "tlwl",
@@ -9,9 +9,8 @@
         }
     ],
     "require"    : {
-        "php"              : ">=5.5",
-        "monolog/monolog"  : "^1.24",
-        "guzzlehttp/guzzle": "^6.3"
+        "php"            : ">=5.5",
+        "monolog/monolog": "^1.23"
     },
     "require-dev": {
         "predis/predis": "^1.1"
